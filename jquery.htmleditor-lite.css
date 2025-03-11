@@ -1,0 +1,167 @@
+﻿@import url('../../../styles/fontawesome.all.min.css');
+
+.liteEditorMain {
+    border: 1px solid #D7D9DA;
+    padding: 0 1px 1px;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.liteEditorMain iframe {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.liteEditorMain textarea {
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    resize: none;
+    outline: none; /* webkit grip focus */
+}
+
+.liteEditorToolbar {
+	overflow-x:hidden;
+}
+
+.liteEditorGroup {
+	float: left;
+	height: 30px;
+}
+
+	.liteEditorGroup.Right {
+		float:right;
+		display: flex;
+		justify-content: flex-end;
+	}
+
+
+.liteEditorButton {
+	float: left;
+	width: 24px;
+	height: 26px;
+	margin: 1px 0 1px 0;
+	text-align: center;
+	line-height: 25px;
+	color: #13171A;
+}
+
+.liteEditorDisabled {
+    display: none;
+}
+
+.liteEditorDivider {
+    float: left;
+    width: 1px;
+    height: 23px;
+    margin: 1px 0 1px 0;
+    background: #CCC;
+}
+
+.liteEditorPopup {
+	border: solid 1px #999;
+	background-color: white;
+	color: #333333;
+	position: absolute;
+	font: 10pt Arial,Verdana;
+	cursor: default;
+	z-index: 10000;
+	border-radius: 5px;
+}
+
+.liteEditorList div {
+    padding: 2px 4px 2px 4px;
+}
+
+.liteEditorList p,
+.liteEditorList h1,
+.liteEditorList h2,
+.liteEditorList h3,
+.liteEditorList h4,
+.liteEditorList h5,
+.liteEditorList h6,
+.liteEditorList font {
+    padding: 0;
+    margin: 0;
+    background-color: Transparent;
+}
+
+.liteEditorColor {
+    width: 150px;
+    padding: 1px 0 0 1px;
+}
+
+.liteEditorColor div {
+    float: left;
+    width: 14px;
+    height: 14px;
+    margin: 0 1px 1px 0;
+}
+
+.liteEditorPrompt {
+    background-color: #F6F7F9;
+    padding: 4px;
+    font-size: 8.5pt;
+}
+
+.liteEditorPrompt input,
+.liteEditorPrompt textarea {
+    font: 8.5pt Arial,Verdana;
+}
+
+.liteEditorMsg {
+    background-color: #FDFCEE;
+    width: 150px;
+    padding: 4px;
+    font-size: 8.5pt;
+}
+
+.liteEditorImagePopup {
+
+	width: 400px;
+	height: auto;
+	padding: 4px;
+
+}
+
+	.liteEditorImagePopup .row {
+		margin-top: 10px;
+	}
+
+	.liteEditorImagePopup .file-upload {
+		position: relative;
+		display: inline-block;
+	}
+
+	.liteEditorImagePopup .file-input {		
+		opacity: 0;
+		overflow: hidden;
+		position: absolute;
+		width: 150px;
+		height: 25px;
+	}
+
+	.liteEditorImagePopup .file-label {
+		display: inline-block;
+		cursor: pointer;
+		padding: 5px;
+		border-radius: 5px;
+		background-color: #0070c0;
+		color: white;
+		transition: background-color 0.3s;
+	}
+
+		.liteEditorImagePopup .file-label:hover {
+			background-color: #007bff;
+		}
+
+
+		.liteEditorImagePopup .file-label:hover {
+			background-color: #0056b3;
+		}
+
+		.liteEditorImagePopup .file-label i {
+			margin-right: 8px;
+		}
